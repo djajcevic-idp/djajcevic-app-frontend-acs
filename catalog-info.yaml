@@ -1,0 +1,19 @@
+#$schema: https://json.schemastore.org/catalog-info.json
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: djajcevic-app-frontend
+  annotations:
+    github.com/project-slug: djajcevic/djajcevic-app-frontend-acs
+    backstage.io/environment: dev
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=djajcevic-app-frontend'
+  tags:
+    - react
+    - js
+spec:
+  type: website
+  lifecycle: development
+  owner: demo-team
+  system: demo
+  dependsOn:
+    - component:default/djajcevic-app
