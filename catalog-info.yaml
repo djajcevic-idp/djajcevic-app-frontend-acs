@@ -7,6 +7,10 @@ metadata:
     github.com/project-slug: djajcevic-idp/djajcevic-app-frontend-acs
     backstage.io/environment: dev
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=djajcevic-app-frontend'
+  links:
+    - url: https://djajcevic-app.apps.idp.dhl.com
+      title: Website
+      icon: star
   tags:
     - react
     - js
