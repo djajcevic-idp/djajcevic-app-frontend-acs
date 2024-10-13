@@ -4,7 +4,7 @@ kind: Component
 metadata:
   name: djajcevic-app-frontend
   annotations:
-    github.com/project-slug: djajcevic/djajcevic-app-frontend-acs
+    github.com/project-slug: djajcevic-idp/djajcevic-app-frontend-acs
     backstage.io/environment: dev
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=djajcevic-app-frontend'
   tags:
